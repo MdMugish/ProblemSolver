@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E5488B24C1A80300A319E3 /* QuestionPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5488A24C1A80300A319E3 /* QuestionPractice.swift */; };
+		04E5488C24C1A80300A319E3 /* QuestionPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5488A24C1A80300A319E3 /* QuestionPractice.swift */; };
 		04FB55F224C14816003376CF /* ProblemSolverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB55DF24C14815003376CF /* ProblemSolverApp.swift */; };
 		04FB55F324C14816003376CF /* ProblemSolverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB55DF24C14815003376CF /* ProblemSolverApp.swift */; };
 		04FB55F424C14816003376CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB55E024C14815003376CF /* ContentView.swift */; };
 		04FB55F524C14816003376CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB55E024C14815003376CF /* ContentView.swift */; };
 		04FB55F624C14816003376CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB55E124C14816003376CF /* Assets.xcassets */; };
 		04FB55F724C14816003376CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB55E124C14816003376CF /* Assets.xcassets */; };
+		04FB560124C149AC003376CF /* ProblemsOnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB560024C149AC003376CF /* ProblemsOnArray.swift */; };
+		04FB560224C149AC003376CF /* ProblemsOnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB560024C149AC003376CF /* ProblemsOnArray.swift */; };
+		04FB560824C14A1A003376CF /* Problems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB560724C14A1A003376CF /* Problems.swift */; };
+		04FB560924C14A1A003376CF /* Problems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB560724C14A1A003376CF /* Problems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04E5488A24C1A80300A319E3 /* QuestionPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPractice.swift; sourceTree = "<group>"; };
 		04FB55DF24C14815003376CF /* ProblemSolverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemSolverApp.swift; sourceTree = "<group>"; };
 		04FB55E024C14815003376CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04FB55E124C14816003376CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +31,8 @@
 		04FB55EE24C14816003376CF /* ProblemSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProblemSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FB55F024C14816003376CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FB55F124C14816003376CF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		04FB560024C149AC003376CF /* ProblemsOnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsOnArray.swift; sourceTree = "<group>"; };
+		04FB560724C14A1A003376CF /* Problems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				04FB55DF24C14815003376CF /* ProblemSolverApp.swift */,
+				04FB560324C149F0003376CF /* Model */,
+				04FB560424C149F7003376CF /* ViewModel */,
 				04FB55E024C14815003376CF /* ContentView.swift */,
+				04E5488A24C1A80300A319E3 /* QuestionPractice.swift */,
 				04FB55E124C14816003376CF /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -88,6 +100,22 @@
 				04FB55F124C14816003376CF /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		04FB560324C149F0003376CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04FB560724C14A1A003376CF /* Problems.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04FB560424C149F7003376CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04FB560024C149AC003376CF /* ProblemsOnArray.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E5488B24C1A80300A319E3 /* QuestionPractice.swift in Sources */,
+				04FB560124C149AC003376CF /* ProblemsOnArray.swift in Sources */,
+				04FB560824C14A1A003376CF /* Problems.swift in Sources */,
 				04FB55F424C14816003376CF /* ContentView.swift in Sources */,
 				04FB55F224C14816003376CF /* ProblemSolverApp.swift in Sources */,
 			);
@@ -196,6 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E5488C24C1A80300A319E3 /* QuestionPractice.swift in Sources */,
+				04FB560224C149AC003376CF /* ProblemsOnArray.swift in Sources */,
+				04FB560924C14A1A003376CF /* Problems.swift in Sources */,
 				04FB55F524C14816003376CF /* ContentView.swift in Sources */,
 				04FB55F324C14816003376CF /* ProblemSolverApp.swift in Sources */,
 			);
